@@ -6,3 +6,4 @@ pluginManagement {
 	}
 }
 rootProject.name = 'EventRegistration-Backend'
+java.runtime.version=17
