@@ -12,7 +12,8 @@ public class EventRegistrationBackendApplication {
   public static void main(String[] args) {
     SpringApplication.run(EventRegistrationBackendApplication.class, args);
   }
-
+  
+// Request map
   @RequestMapping("/") //http request mapping for hello world, lead us to hello world page
   public String greeting(){
     return "Hello world!";
